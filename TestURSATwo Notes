@@ -1,0 +1,35 @@
+### Create 3.8.10 Environment Start
+
+$ conda create --name TestURSATwo python=3.8.10
+
+$ conda activate TestURSATwo
+$ gh logged in
+$ git cloned respiratories
+$ cd into network_analysis
+$ pip install -r requirements.txt
+
+# Uploaded and cloned personal respiratory for zip fie:"input_extra_nodes_three_consis.zip"
+
+### Create 3.8.10 Environment End
+
+### Step 1 Start
+
+$ python intake_data.py /home/anomonlyus-ms-keleton/Documents/URSA/TestOne/input_extra_nodes_three_consis /home/anomonlyus-ms-keleton/Desktop/TestTwoCDF.cdf
+
+^Successful
+
+$ python run.py /home/anomonlyus-ms-keleton/Desktop/TestTwoCDF.cdf /home/anomonlyus-ms-keleton/Documents/URSA/TestOne/input_extra_nodes_three_consis/config_per_type_corr_p0.2_75pct.json /home/anomonlyus-ms-keleton/Documents/URSA/TestTwo.zip
+
+^Successful
+
+$ python to_csv.py /home/anomonlyus-ms-keleton/Documents/URSA/TestOne.zip /home/anomonlyus-ms-keleton/Documents/URSA/TestOne/input_extra_nodes_three_consis/config_per_type_corr_p0.2_75pct.json /home/anomonlyus-ms-keleton/Documents 
+
+^Successful
+
+# Able to open all .csv files
+
+### Step 1 End
+
+
+
+
